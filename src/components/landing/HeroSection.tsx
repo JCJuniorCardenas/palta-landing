@@ -16,8 +16,8 @@ export function HeroSection() {
           <h1 className="max-w-3xl text-balance text-[2.6rem] font-bold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl">Paltas de origen, cultivadas con alma.</h1>
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-[#F2EEE9] drop-shadow-sm sm:text-xl">Producción orgánica y responsable en Paso de los Libres, Corrientes. Sabor auténtico directo a tu mesa.</p>
           <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
-            <a href="#contacto" className="inline-flex min-h-[56px] items-center justify-center rounded-full bg-[#A66A43] px-10 py-4 text-base font-bold text-white shadow-lg transition-all hover:scale-105 hover:bg-[#8C5734] active:scale-95">
-              Contactar ahora
+            <a href="#pedido" className="inline-flex min-h-[56px] items-center justify-center rounded-full bg-[#A66A43] px-10 py-4 text-base font-bold text-white shadow-lg transition-all hover:scale-105 hover:bg-[#8C5734] active:scale-95">
+              Hacer un pedido
             </a>
             <a href="#proceso" className="inline-flex min-h-[56px] items-center justify-center rounded-full border-2 border-white/30 bg-white/10 px-10 py-4 text-base font-bold text-white backdrop-blur-md transition-all hover:bg-white/20">
               Ver del árbol a tu mesa

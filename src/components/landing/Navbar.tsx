@@ -71,8 +71,8 @@ export function Navbar() {
         </ul>
 
         <div className="flex items-center gap-3">
-          <a href="#contacto" className="hidden min-h-10 items-center rounded-full bg-[#A66A43] px-5 text-sm font-bold text-white shadow-md transition-all hover:bg-[#8C5734] active:scale-95 sm:inline-flex">
-            Contactar
+          <a href="#pedido" className="hidden min-h-10 items-center rounded-full bg-[#A66A43] px-5 text-sm font-bold text-white shadow-md transition-all hover:bg-[#8C5734] active:scale-95 sm:inline-flex">
+            Pedir paltas
           </a>
 
           <button
@@ -101,8 +101,8 @@ export function Navbar() {
               </li>
             ))}
           </ul>
-          <a href="#contacto" onClick={() => setOpen(false)} className="mt-5 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-[#A66A43] text-base font-bold text-white">
-            Contactar ahora
+          <a href="#pedido" onClick={() => setOpen(false)} className="mt-5 inline-flex min-h-12 w-full items-center justify-center rounded-full bg-[#A66A43] text-base font-bold text-white">
+            Hacer un pedido
           </a>
         </div>
       )}

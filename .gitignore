@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# datos locales (base embebida de desarrollo)
+/.data/
+
+# el ejemplo de variables SI se sube
+!.env.example

@@ -1,8 +1,5 @@
 import type { Metadata } from 'next';
 import { Fraunces, Manrope } from 'next/font/google';
-import { ScrollEffects } from '@/components/effects/ScrollEffects';
-import { FloatingWhatsAppButton } from '@/components/landing/FloatingWhatsAppButton';
-import { Navbar } from '@/components/landing/Navbar';
 import './globals.css';
 
 const manrope = Manrope({
@@ -38,12 +35,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={`${manrope.variable} ${fraunces.variable} h-full antialiased scroll-smooth`}>
-      <body className="min-h-full flex flex-col">
-        <Navbar />
-        {children}
-        <FloatingWhatsAppButton />
-        <ScrollEffects />
-      </body>
+      <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
 }

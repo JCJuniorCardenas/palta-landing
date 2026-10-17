@@ -1,6 +1,8 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  // La base embebida de desarrollo y el driver de Postgres se cargan en runtime, no se empaquetan
+  serverExternalPackages: ['@electric-sql/pglite', 'pg'],
   images: {
     remotePatterns: [
       {

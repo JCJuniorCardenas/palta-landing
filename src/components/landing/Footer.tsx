@@ -3,6 +3,7 @@ const quickLinks = [
   { href: '#proceso', label: 'Del árbol a tu mesa' },
   { href: '#beneficios', label: 'Beneficios' },
   { href: '#recetas', label: 'Recetas' },
+  { href: '#pedido', label: 'Hacer un pedido' },
   { href: '#contacto', label: 'Contacto' },
 ];
 

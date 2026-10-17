@@ -116,7 +116,7 @@ export function StorySection({ scenes }: StorySectionProps) {
               <h2 className="mt-3 text-balance text-3xl font-bold leading-tight sm:text-4xl">{scene.title}</h2>
               <p className="mt-4 text-base leading-relaxed text-[#F2EEE9] sm:text-lg">{scene.body}</p>
               {index === scenes.length - 1 && (
-                <a href="#contacto" className="mt-6 inline-flex min-h-12 items-center justify-center rounded-full bg-[#A66A43] px-8 text-base font-bold text-white shadow-lg transition-all hover:scale-105 hover:bg-[#8C5734] active:scale-95">
+                <a href="#pedido" className="mt-6 inline-flex min-h-12 items-center justify-center rounded-full bg-[#A66A43] px-8 text-base font-bold text-white shadow-lg transition-all hover:scale-105 hover:bg-[#8C5734] active:scale-95">
                   Hacer un pedido
                 </a>
               )}
