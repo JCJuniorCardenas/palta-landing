@@ -51,12 +51,12 @@ CREATE INDEX IF NOT EXISTS order_items_order_idx ON order_items (order_id);
 `;
 
 /**
- * Productos de EJEMPLO (precios inventados). Se cargan solo si la tabla está vacía.
- * En producción arrancan DESACTIVADOS para que nadie pueda comprar a un precio de mentira:
- * hay que editarlos y activarlos desde /admin/productos.
+ * Productos iniciales: solo paltas, con precios FICTICIOS (proyecto de portfolio).
+ * Se cargan solo si la tabla está vacía y se editan desde /admin/productos.
+ * Si algún día se vende de verdad, se cambian los precios ahí mismo.
  */
 export const SEED_PRODUCTS = [
-  { name: 'Caja 5 kg', description: 'Paltas orgánicas de Los 108, caja de 5 kg.', unitKg: 5, priceCents: 2500000, sortOrder: 1 },
-  { name: 'Caja 10 kg', description: 'Paltas orgánicas de Los 108, caja de 10 kg.', unitKg: 10, priceCents: 4500000, sortOrder: 2 },
-  { name: 'Caja 20 kg (mayorista)', description: 'Para negocios y restaurantes. Caja de 20 kg.', unitKg: 20, priceCents: 8000000, sortOrder: 3 },
+  { name: 'Paltas - caja 5 kg', description: 'Paltas orgánicas de Los 108, caja de 5 kg.', unitKg: 5, priceCents: 2500000, sortOrder: 1 },
+  { name: 'Paltas - caja 10 kg', description: 'Paltas orgánicas de Los 108, caja de 10 kg.', unitKg: 10, priceCents: 4500000, sortOrder: 2 },
+  { name: 'Paltas - caja 20 kg (mayorista)', description: 'Para negocios y restaurantes. Caja de 20 kg.', unitKg: 20, priceCents: 8000000, sortOrder: 3 },
 ];

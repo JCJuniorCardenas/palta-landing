@@ -98,7 +98,8 @@ async function init(): Promise<Driver> {
 
   const { rows } = await driver.query<{ n: number }>('SELECT COUNT(*)::int AS n FROM products');
   if (rows[0].n === 0) {
-    const active = process.env.NODE_ENV !== 'production';
+    // Proyecto de portfolio: los productos de ejemplo salen visibles también en producción
+    const active = true;
     for (const p of SEED_PRODUCTS) {
       await driver.query(
         'INSERT INTO products (name, description, unit_kg, price_cents, sort_order, active) VALUES ($1, $2, $3, $4, $5, $6)',

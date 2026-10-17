@@ -185,7 +185,7 @@ El dashboard **solo cuenta pedidos pagados o entregados** (por fecha de pago, ho
 
 Es para **una sola persona** (el dueño), con contraseña. Tras 5 intentos fallidos se bloquea 15 minutos.
 
-> Los 3 productos que se cargan al inicio (cajas de 5, 10 y 20 kg) son **de ejemplo**. En producción arrancan **desactivados**: entrá a `/admin/productos`, poné los precios reales y activalos.
+> Los 3 productos iniciales son **solo paltas** (cajas de 5, 10 y 20 kg) con **precios ficticios** (proyecto de portfolio) y salen visibles. Si algún día se vende de verdad, se cambian los precios en `/admin/productos`.
 
 ### Variables de entorno
 
